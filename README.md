@@ -16,6 +16,7 @@
 - 💻 Practicing **Data Structures & Algorithms (DSA)** using **C++**
 - ⚔️ Actively participating in **Hackathons** to challenge myself, collaborate with others, and build real-world projects
 - 🧠 Constantly exploring new technologies to expand my skillset
+- 📫 How to reach me **aggarwalakhil78@gmail.com**
 
 ## 💡 Hackathons & Projects
 I'm currently exploring **hackathons** as a platform to learn, build, and grow. These events help me:
