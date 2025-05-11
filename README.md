@@ -18,7 +18,7 @@
 <br/>
 
 <p align="left"> 
-  <img src="https://komarev.com/ghpvc/?username=codeaxworld&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img height="150" src="https://komarev.com/ghpvc/?username=codeaxworld&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 ## 🚀 What I'm Working On
