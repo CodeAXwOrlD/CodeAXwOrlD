@@ -20,10 +20,6 @@ I'm currently exploring **hackathons** as a platform to learn, build, and grow. 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/www.linkedin.com/in/aggarwalakhil13032005" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/aggarwalakhil13032005" height="30" width="40" /></a>
-  <a href="mailto:aggarwalakhil78@gmail.com" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="aggarwalakhil78@gmail.com" height="30" width="40" />
-</a>
-
 <a href="https://www.hackerrank.com/https://www.hackerrank.com/profile/aggarwal_akhil13" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/aggarwal_akhil13" height="30" width="40" /></a>
 </p>
 
