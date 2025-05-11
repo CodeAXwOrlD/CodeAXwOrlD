@@ -11,11 +11,8 @@
       <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40" />
     </a>
   </p>
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="GIF" height="50" style="margin-left: 10px;" />
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="GIF" height="100" style="margin-left: 10px;" />
 </div>
-
-
-
 
 <br/>
 
