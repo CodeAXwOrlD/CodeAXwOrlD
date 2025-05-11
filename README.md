@@ -1,17 +1,21 @@
 <h1 align="center">Hi 👋, I'm Akhil Agarwal</h1>
-<h3 align="center">A passionate learner who is currently diving deep into the world of Web Development and sharpening problem-solving skills through Competitive Programming in C++.</h3>
+<h3 align="center">I'm a **passionate learner** currently diving deep into **Web Development** and sharpening my problem-solving skills through **Competitive Programming** in **C++**.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=codeaxworld&label=Profile%20views&color=0e75b6&style=flat" alt="codeaxworld" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=codeaxworld" alt="codeaxworld" /></a> </p>
 
+## 🚀 What I'm Working On
 - 🌐 Learning **Full Stack Web Development**
+- 💻 Practicing **Data Structures & Algorithms (DSA)** using **C++**
+- ⚔️ Actively participating in **Hackathons** to challenge myself, collaborate with others, and build real-world projects
+- 🧠 Constantly exploring new technologies to expand my skillset
 
-- ⚔️ Actively participating in **Hackathons to challenge myself, collaborate with others, and build real-world projects**
-
-- 💻 Practicing **Data Structures & Algorithms (DSA) using C++**
-
-- 🧠 Exploring **new tech stacks and building personal projects**
+## 💡 Hackathons & Projects
+I'm currently exploring **hackathons** as a platform to learn, build, and grow. These events help me:
+- Collaborate with like-minded developers
+- Work on creative, fast-paced projects
+- Gain hands-on experience and improve teamwork
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
