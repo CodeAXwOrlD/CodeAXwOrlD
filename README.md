@@ -9,8 +9,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=codeaxworld&label=Profile%20views&color=0e75b6&style=flat" alt="codeaxworld" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=codeaxworld" alt="codeaxworld" /></a> </p>
-
 ## 🚀 What I'm Working On
 - 🌐 Learning **Full Stack Web Development**
 - 💻 Practicing **Data Structures & Algorithms (DSA)** using **C++**
