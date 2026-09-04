@@ -68,6 +68,11 @@
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" alt="Git" width="40" height="40"/></a> 
 </p>
 
+## 🐍 Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/codeaxworld/codeaxworld/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</p>
+
 ## 📊 GitHub Stats
 
 <div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
