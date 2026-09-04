@@ -1,0 +1,16 @@
+name: GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate images
+        uses: jstrieb/github-stats@master
+        with:
+          username: codeaxworld
+          access_token: ${{ secrets.ACCESS_TOKEN }}
