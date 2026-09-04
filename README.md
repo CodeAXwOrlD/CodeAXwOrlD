@@ -75,8 +75,7 @@
 
 ## 📊 GitHub Stats
 
-<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=codeaxworld&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=codeaxworld&show_icons=true&locale=en" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=codeaxworld" alt="GitHub Streak" />
+<div align="center">
+  <img src="./generated/overview.svg" alt="GitHub Stats Overview" />
+  <img src="./generated/languages.svg" alt="Top Languages" />
 </div>
