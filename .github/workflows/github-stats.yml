@@ -34,8 +34,9 @@ jobs:
         working-directory: github-stats
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_ACTOR: codeaxworld
-        run: python3 main.py
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXCLUDE_FORKED_REPOS: true
+        run: python3 generate_images.py
 
       - name: Commit generated images
         run: |
