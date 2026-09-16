@@ -22,7 +22,7 @@
 
 ## 🚀 About Me
 - 🎓 Final-year CS student, specializing in **Full-Stack & Backend Development**
-- 💼 Currently **Full Stack Developer Intern @ PixoraNest**
+- 💼 Currently **Full Stack Developer @ PixoraNest**
 - 🌐 Built production-grade systems: async document processing pipelines, no-code chatbot builders, and a sub-30ms C++ autocomplete engine
 - ⚙️ Now learning **DevOps** and **AI Automation**
 - ⚔️ Still actively participating in **Hackathons** — Hackathon Finalist (CredX, among 10,000+ participants)
