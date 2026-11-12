@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476 542" width="100%" height="542" style="max-width:476px; background: transparent;">
+  <defs>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#388bfd" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#238636" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8957e5" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="fire-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0883e"/>
+      <stop offset="100%" stop-color="#ff7b72"/>
+    </linearGradient>
+    <linearGradient id="bolt-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#388bfd"/>
+      <stop offset="100%" stop-color="#39d353"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .card-window { fill: #0d1117; stroke: url(#card-border); stroke-width: 1.5; rx: 10px; }
+    .title-bar { fill: #161b22; }
+    .btn-close { fill: #ff5f56; }
+    .btn-min { fill: #ffbd2e; }
+    .btn-max { fill: #27c93f; }
+    .bar-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; font-size: 11px; fill: #8b949e; text-anchor: middle; font-weight: 500; }
+    .user-name { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 700; fill: #58a6ff; }
+    .user-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11.5px; fill: #8b949e; }
+    .badge-role { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 10px; fill: #39d353; font-weight: 600; }
+    .stat-box { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8px; }
+    .box-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 11px; fill: #8b949e; }
+    .box-val { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 20px; font-weight: 800; }
+    .section-lbl { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 11px; font-weight: 700; fill: #c9d1d9; letter-spacing: 0.5px; }
+    .dist-lbl { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10.5px; fill: #8b949e; }
+    .dist-val { font-family: ui-monospace, SFMono-Regular, monospace; font-weight: 600; fill: #e6edf3; }
+    .bar-val { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 9px; fill: #7d8590; }
+    .bar-lbl { font-family: ui-monospace, SFMono-Regular, monospace; font-size: 9.5px; fill: #8b949e; }
+    .cursor { fill: #39d353; animation: blink 0.85s infinite; }
+
+    .fade-item {
+      opacity: 0;
+      animation: fadeInItem 0.35s ease-out forwards;
+    }
+
+    @keyframes fadeInItem {
+      0% { opacity: 0; transform: translateY(4px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .month-bar {
+      opacity: 0;
+      animation: fadeInItem 0.4s ease-out forwards;
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .fade-item, .month-bar { opacity: 1 !important; animation: none !important; }
+      .cursor { animation: none !important; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="2" y="2" width="472" height="538" class="card-window" />
+
+  <!-- Window Header Bar -->
+  <path d="M2 10 C2 5, 5 2, 10 2 L466 2 C471 2, 474 5, 474 10 L474 30 L2 30 Z" class="title-bar"/>
+  <circle cx="18" cy="16" r="5" class="btn-close" />
+  <circle cx="34" cy="16" r="5" class="btn-min" />
+  <circle cx="50" cy="16" r="5" class="btn-max" />
+  <text x="238" y="20" class="bar-title">akhil@CodeAXwOrlD: ~ (dev-metrics)</text>
+
+  <!-- Developer Identity Header -->
+  <g transform="translate(22, 50)">
+    <text class="user-name">Akhil Agarwal</text>
+    <text x="0" y="18" class="user-sub">@CodeAXwOrlD • Full-Stack &amp; Backend Engineer</text>
+    <text x="0" y="33" class="badge-role">✔ PPO @ PixoraNest • Red Hat Certified (RHCE)</text>
+  </g>
+
+  <!-- 4 Stat Metric Cards (2x2 Grid) -->
+  <g transform="translate(22, 102)">
+    <!-- Total Contributions -->
+    <g class="fade-item" style="animation-delay: 0.10s;">
+      <rect x="0" y="0" width="208" height="68" class="stat-box" />
+      <text x="14" y="22" class="box-title">Total Contributions</text>
+      <text x="14" y="50" class="box-val" fill="#58a6ff">671</text>
+      <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">365 Days</text>
+    </g>
+
+    <!-- Active Consistency -->
+    <g class="fade-item" style="animation-delay: 0.15s;" transform="translate(224, 0)">
+      <rect x="0" y="0" width="208" height="68" class="stat-box" />
+      <text x="14" y="22" class="box-title">Active Consistency</text>
+      <text x="14" y="50" class="box-val" fill="#39d353">226d</text>
+      <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">61% active</text>
+    </g>
+
+    <!-- Current Streak -->
+    <g class="fade-item" style="animation-delay: 0.20s;" transform="translate(0, 78)">
+      <rect x="0" y="0" width="208" height="68" class="stat-box" />
+      <text x="14" y="22" class="box-title">Current Streak</text>
+      <text x="14" y="50" class="box-val" fill="url(#fire-grad)">2 Days</text>
+      <text x="194" y="50" text-anchor="end" style="font-size: 12px;">🔥</text>
+    </g>
+
+    <!-- Longest Streak -->
+    <g class="fade-item" style="animation-delay: 0.25s;" transform="translate(224, 78)">
+      <rect x="0" y="0" width="208" height="68" class="stat-box" />
+      <text x="14" y="22" class="box-title">Longest Streak</text>
+      <text x="14" y="50" class="box-val" fill="url(#bolt-grad)">9 Days</text>
+      <text x="194" y="50" text-anchor="end" style="font-size: 12px;">⚡</text>
+    </g>
+  </g>
+
+  <!-- Activity Distribution Breakdown -->
+  <g transform="translate(22, 268)">
+    <text class="section-lbl">ACTIVITY DISTRIBUTION</text>
+
+    <!-- Multi-segment Progress Bar -->
+    <g transform="translate(0, 10)">
+      <rect x="0" y="0" width="432" height="10" rx="5" fill="#21262d" />
+      <rect x="0" y="0" width="362" height="10" rx="5" fill="#39d353" />
+      <rect x="362" y="0" width="34" height="10" fill="#58a6ff" />
+      <rect x="397" y="0" width="21" height="10" fill="#bc8cff" />
+      <rect x="419" y="0" width="12" height="10" rx="5" fill="#d29922" />
+    </g>
+
+    <!-- Distribution Legend -->
+    <g transform="translate(0, 34)">
+      <circle cx="5" cy="5" r="4" fill="#39d353" />
+      <text x="14" y="9" class="dist-lbl">Commits: <tspan class="dist-val">570</tspan></text>
+
+      <circle cx="122" cy="5" r="4" fill="#58a6ff" />
+      <text x="131" y="9" class="dist-lbl">PRs: <tspan class="dist-val">52</tspan></text>
+
+      <circle cx="226" cy="5" r="4" fill="#bc8cff" />
+      <text x="235" y="9" class="dist-lbl">Reviews: <tspan class="dist-val">31</tspan></text>
+
+      <circle cx="340" cy="5" r="4" fill="#d29922" />
+      <text x="349" y="9" class="dist-lbl">Issues: <tspan class="dist-val">22</tspan></text>
+    </g>
+  </g>
+
+  <!-- Monthly Contribution Trend Header -->
+  <g transform="translate(22, 344)">
+    <text class="section-lbl">MONTHLY CONTRIBUTION VOLUME</text>
+    <line x1="0" y1="8" x2="432" y2="8" stroke="#30363d" stroke-width="1" />
+  </g>
+
+  <!-- Monthly Bars -->
+  <g id="monthly-chart">
+
+    <g class="month-bar" style="animation-delay: 0.4s;">
+      <rect x="24" y="437" width="46" height="43" rx="3" fill="#238636" class="bar-rect" />
+      <text x="47" y="432" text-anchor="middle" class="bar-val">64</text>
+      <text x="47" y="495" text-anchor="middle" class="bar-lbl">Apr</text>
+    </g>
+    <g class="month-bar" style="animation-delay: 0.48s;">
+      <rect x="84" y="444" width="46" height="36" rx="3" fill="#238636" class="bar-rect" />
+      <text x="107" y="439" text-anchor="middle" class="bar-val">54</text>
+      <text x="107" y="495" text-anchor="middle" class="bar-lbl">May</text>
+    </g>
+    <g class="month-bar" style="animation-delay: 0.56s;">
+      <rect x="144" y="440" width="46" height="40" rx="3" fill="#238636" class="bar-rect" />
+      <text x="167" y="435" text-anchor="middle" class="bar-val">59</text>
+      <text x="167" y="495" text-anchor="middle" class="bar-lbl">Jun</text>
+    </g>
+    <g class="month-bar" style="animation-delay: 0.64s;">
+      <rect x="204" y="450" width="46" height="30" rx="3" fill="#238636" class="bar-rect" />
+      <text x="227" y="445" text-anchor="middle" class="bar-val">45</text>
+      <text x="227" y="495" text-anchor="middle" class="bar-lbl">Jul</text>
+    </g>
+    <g class="month-bar" style="animation-delay: 0.72s;">
+      <rect x="264" y="459" width="46" height="21" rx="3" fill="#238636" class="bar-rect" />
+      <text x="287" y="454" text-anchor="middle" class="bar-val">31</text>
+      <text x="287" y="495" text-anchor="middle" class="bar-lbl">Aug</text>
+    </g>
+    <g class="month-bar" style="animation-delay: 0.8s;">
+      <rect x="324" y="433" width="46" height="47" rx="3" fill="#238636" class="bar-rect" />
+      <text x="347" y="428" text-anchor="middle" class="bar-val">69</text>
+      <text x="347" y="495" text-anchor="middle" class="bar-lbl">Sep</text>
+    </g>
+    <g class="month-bar" style="animation-delay: 0.88s;">
+      <rect x="384" y="430" width="46" height="50" rx="3" fill="#238636" class="bar-rect" />
+      <text x="407" y="425" text-anchor="middle" class="bar-val">73</text>
+      <text x="407" y="495" text-anchor="middle" class="bar-lbl">Oct</text>
+    </g>
+  </g>
+
+  <!-- Terminal Status Footer -->
+  <g transform="translate(22, 530)">
+    <text style="font-family: ui-monospace, SFMono-Regular, monospace; font-size: 9.5px; fill: #8b949e;">
+      [STATUS] metrics verified • @CodeAXwOrlD <rect x="235" y="-8" width="6" height="10" class="cursor" />
+    </text>
+  </g>
+</svg>

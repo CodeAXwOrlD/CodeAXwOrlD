@@ -1,0 +1,70 @@
+name: Update Profile Art & Stats
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Fetch Contribution & Stats Data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/fetch_contributions.py --username CodeAXwOrlD --output data/contributions.json
+
+      - name: Generate ASCII Portrait
+        run: |
+          python scripts/make_ascii_svg.py --input source-prepped.png --output akhil-ascii.svg
+
+      - name: Render Heatmap & Stats SVGs
+        run: |
+          python scripts/render_heatmap_svg.py --data data/contributions.json --output contrib-heatmap.svg
+          python scripts/render_stats_svg.py --data data/contributions.json --output stats.svg
+
+      - name: Validate Generated SVGs
+        run: |
+          for f in akhil-ascii.svg contrib-heatmap.svg stats.svg; do
+            if [ ! -s "$f" ]; then
+              echo "Error: $f is missing or empty!"
+              exit 1
+            fi
+            if ! grep -q "<svg" "$f" || ! grep -q "</svg>" "$f"; then
+              echo "Error: $f is not a well-formed SVG!"
+              exit 1
+            fi
+            echo "Validation passed for $f ($(wc -c < "$f") bytes)"
+          done
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add akhil-ascii.svg contrib-heatmap.svg stats.svg source-prepped.png data/contributions.json
+          if git diff --staged --quiet; then
+            echo "No changes detected to commit."
+          else
+            git commit -m "Auto-update profile art and contribution stats [skip ci]"
+            git push
+          fi
