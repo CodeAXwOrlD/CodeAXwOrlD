@@ -96,7 +96,6 @@ identity:
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=black" alt="IPFS" />
 </p>
 
 #### 🚀 DevOps, Cloud & OS
@@ -115,25 +114,9 @@ identity:
   <img src="https://img.shields.io/badge/LLM_Integration-58A6FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="LLM Integration" />
   <img src="https://img.shields.io/badge/AI_Voice_Agents-238636?style=for-the-badge&logo=webrtc&logoColor=white" alt="Voice Agents" />
   <img src="https://img.shields.io/badge/n8n_Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
-  <img src="https://img.shields.io/badge/RBAC_%26_Security-006D32?style=for-the-badge&logo=auth0&logoColor=white" alt="Security" />
 </p>
 
 </div>
-
----
-
-### 💼 Professional Experience
-
-#### **Full Stack Developer Intern — PixoraNest**  
-*May 2026 – Present | Jaipur, Rajasthan*  
-*Awarded **Pre-Placement Offer (PPO)** based on engineering performance during internship.*
-
-- **PixoraBot SaaS Platform**: Built a multi-tenant SaaS platform using React, TypeScript, and Supabase/PostgreSQL with serverless Edge Functions, white-label branding, and a visual WhatsApp chatbot builder powered by React Flow.
-- **API Security & Multi-Tenant Isolation**: Implemented JWT verification, hierarchical role-based access control (super-admin, admin, client), origin allowlisting, and an SSRF-safe proxy for outbound n8n automations.
-- **Omnichannel Automation**: Automated lead capture and follow-ups across WhatsApp Cloud API, RCS, and AI voice calls using n8n workflows, cron schedulers, and a 0–100 lead-scoring function serving 1,300+ leads.
-- **In-House Voice Agent Migration**: Migrated a production LLM-powered multilingual voice agent from OmniDimension to an internal stack (FastAPI, Pipecat, Next.js, PostgreSQL), removing external vendor lock-in.
-- **CI/CD & Root Cause Analysis**: Maintained automated GitHub Actions workflows (SSH deploy to AWS EC2 with Docker Compose and zero-downtime health checks); resolved complex production root causes (audio cutoffs, OAuth reverse-proxy issues, session drops) with regression test suites.
 
 ---
 
@@ -177,19 +160,23 @@ identity:
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aggarwalakhil13032005/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-aggarwalakhil13032005-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="./assets/social-linkedin.svg" alt="LinkedIn" height="54" />
   </a>
   &nbsp;
   <a href="https://github.com/CodeAXwOrlD" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-CodeAXwOrlD-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://www.hackerrank.com/profile/aggarwal_akhil13" target="_blank">
-    <img src="https://img.shields.io/badge/HackerRank-aggarwal__akhil13-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" />
+    <img src="./assets/social-github.svg" alt="GitHub" height="54" />
   </a>
   &nbsp;
   <a href="mailto:aggarwalakhil2005@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-aggarwalakhil2005-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="./assets/social-gmail.svg" alt="Gmail" height="54" />
+  </a>
+  &nbsp;
+  <a href="https://leetcode.com/" target="_blank">
+    <img src="./assets/social-leetcode.svg" alt="LeetCode" height="54" />
+  </a>
+  &nbsp;
+  <a href="https://www.hackerrank.com/profile/aggarwal_akhil13" target="_blank">
+    <img src="./assets/social-hackerrank.svg" alt="HackerRank" height="54" />
   </a>
 </p>
 

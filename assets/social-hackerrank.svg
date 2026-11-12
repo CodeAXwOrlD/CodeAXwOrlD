@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="54" viewBox="0 0 156 54" role="img" aria-label="HackerRank">
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#23C562"/>
+      <stop offset="100%" stop-color="#108A3E"/>
+    </linearGradient>
+    <linearGradient id="s4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Ambient cast shadow -->
+  <rect x="4" y="10" width="148" height="41" rx="12" fill="#000000" opacity="0.28"/>
+  <!-- 3D extruded lower edge -->
+  <rect x="3" y="7" width="150" height="41" rx="11" fill="#074F22"/>
+  <!-- Main elevated 3D face -->
+  <rect x="3" y="2" width="150" height="41" rx="11" fill="url(#g4)" stroke="rgba(255,255,255,0.38)" stroke-width="1"/>
+  <!-- Top-left 3D glass sheen -->
+  <path d="M14 2.5h128c6 0 10.5 4.2 10.5 10v3.5c-44-6-95-5-149 2.5V12.5c0-5.8 4.5-10 10.5-10z" fill="url(#s4)"/>
+  <!-- Recessed 3D icon socket -->
+  <rect x="10" y="7.5" width="30" height="30" rx="8" fill="#0B2917" stroke="rgba(255,255,255,0.20)" stroke-width="0.9"/>
+  <path d="M11.5 9.2h27" stroke="rgba(0,0,0,0.35)" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="25,11.2 34.4,16.6 34.4,27.4 25,32.8 15.6,27.4 15.6,16.6" fill="#1BA94C" stroke="#5CE08C" stroke-width="1.2"/>
+  <path d="M19.0 17.6h2.1v3.5h3.1v-3.5h2.1v9.0h-2.1v-3.5h-3.1v3.5h-2.1v-9.0z" fill="#FFFFFF"/>
+  <rect x="27.3" y="24.9" width="3.5" height="1.7" rx="0.4" fill="#FFFFFF"/>
+  <!-- Text -->
+  <text x="49" y="21.5" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" letter-spacing="0.2">HackerRank</text>
+  <text x="49" y="34.5" fill="#C6F6D5" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" font-weight="500">5★ C++</text>
+</svg>
