@@ -84,7 +84,7 @@
     <g class="fade-item" style="animation-delay: 0.10s;">
       <rect x="0" y="0" width="208" height="68" class="stat-box" />
       <text x="14" y="22" class="box-title">Total Contributions</text>
-      <text x="14" y="50" class="box-val" fill="#58a6ff">671</text>
+      <text x="14" y="50" class="box-val" fill="#58a6ff">198</text>
       <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">365 Days</text>
     </g>
 
@@ -92,15 +92,15 @@
     <g class="fade-item" style="animation-delay: 0.15s;" transform="translate(224, 0)">
       <rect x="0" y="0" width="208" height="68" class="stat-box" />
       <text x="14" y="22" class="box-title">Active Consistency</text>
-      <text x="14" y="50" class="box-val" fill="#39d353">226d</text>
-      <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">61% active</text>
+      <text x="14" y="50" class="box-val" fill="#39d353">48d</text>
+      <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">13% active</text>
     </g>
 
     <!-- Current Streak -->
     <g class="fade-item" style="animation-delay: 0.20s;" transform="translate(0, 78)">
       <rect x="0" y="0" width="208" height="68" class="stat-box" />
       <text x="14" y="22" class="box-title">Current Streak</text>
-      <text x="14" y="50" class="box-val" fill="url(#fire-grad)">2 Days</text>
+      <text x="14" y="50" class="box-val" fill="url(#fire-grad)">1 Days</text>
       <text x="194" y="50" text-anchor="end" style="font-size: 12px;">🔥</text>
     </g>
 
@@ -108,7 +108,7 @@
     <g class="fade-item" style="animation-delay: 0.25s;" transform="translate(224, 78)">
       <rect x="0" y="0" width="208" height="68" class="stat-box" />
       <text x="14" y="22" class="box-title">Longest Streak</text>
-      <text x="14" y="50" class="box-val" fill="url(#bolt-grad)">9 Days</text>
+      <text x="14" y="50" class="box-val" fill="url(#bolt-grad)">4 Days</text>
       <text x="194" y="50" text-anchor="end" style="font-size: 12px;">⚡</text>
     </g>
   </g>
@@ -120,25 +120,25 @@
     <!-- Multi-segment Progress Bar -->
     <g transform="translate(0, 10)">
       <rect x="0" y="0" width="432" height="10" rx="5" fill="#21262d" />
-      <rect x="0" y="0" width="362" height="10" rx="5" fill="#39d353" />
-      <rect x="362" y="0" width="34" height="10" fill="#58a6ff" />
-      <rect x="397" y="0" width="21" height="10" fill="#bc8cff" />
-      <rect x="419" y="0" width="12" height="10" rx="5" fill="#d29922" />
+      <rect x="0" y="0" width="410" height="10" rx="5" fill="#39d353" />
+      <rect x="410" y="0" width="21" height="10" fill="#58a6ff" />
+      <rect x="432" y="0" width="0" height="10" fill="#bc8cff" />
+      <rect x="432" y="0" width="2" height="10" rx="5" fill="#d29922" />
     </g>
 
     <!-- Distribution Legend -->
     <g transform="translate(0, 34)">
       <circle cx="5" cy="5" r="4" fill="#39d353" />
-      <text x="14" y="9" class="dist-lbl">Commits: <tspan class="dist-val">570</tspan></text>
+      <text x="14" y="9" class="dist-lbl">Commits: <tspan class="dist-val">178</tspan></text>
 
       <circle cx="122" cy="5" r="4" fill="#58a6ff" />
-      <text x="131" y="9" class="dist-lbl">PRs: <tspan class="dist-val">52</tspan></text>
+      <text x="131" y="9" class="dist-lbl">PRs: <tspan class="dist-val">10</tspan></text>
 
       <circle cx="226" cy="5" r="4" fill="#bc8cff" />
-      <text x="235" y="9" class="dist-lbl">Reviews: <tspan class="dist-val">31</tspan></text>
+      <text x="235" y="9" class="dist-lbl">Reviews: <tspan class="dist-val">0</tspan></text>
 
       <circle cx="340" cy="5" r="4" fill="#d29922" />
-      <text x="349" y="9" class="dist-lbl">Issues: <tspan class="dist-val">22</tspan></text>
+      <text x="349" y="9" class="dist-lbl">Issues: <tspan class="dist-val">0</tspan></text>
     </g>
   </g>
 
@@ -152,39 +152,39 @@
   <g id="monthly-chart">
 
     <g class="month-bar" style="animation-delay: 0.4s;">
-      <rect x="24" y="437" width="46" height="43" rx="3" fill="#238636" class="bar-rect" />
-      <text x="47" y="432" text-anchor="middle" class="bar-val">64</text>
-      <text x="47" y="495" text-anchor="middle" class="bar-lbl">Apr</text>
+      <rect x="24" y="472" width="46" height="8" rx="3" fill="#238636" class="bar-rect" />
+      <text x="47" y="467" text-anchor="middle" class="bar-val">5</text>
+      <text x="47" y="495" text-anchor="middle" class="bar-lbl">May</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.48s;">
-      <rect x="84" y="444" width="46" height="36" rx="3" fill="#238636" class="bar-rect" />
-      <text x="107" y="439" text-anchor="middle" class="bar-val">54</text>
-      <text x="107" y="495" text-anchor="middle" class="bar-lbl">May</text>
+      <rect x="84" y="460" width="46" height="20" rx="3" fill="#238636" class="bar-rect" />
+      <text x="107" y="455" text-anchor="middle" class="bar-val">12</text>
+      <text x="107" y="495" text-anchor="middle" class="bar-lbl">Jun</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.56s;">
-      <rect x="144" y="440" width="46" height="40" rx="3" fill="#238636" class="bar-rect" />
-      <text x="167" y="435" text-anchor="middle" class="bar-val">59</text>
-      <text x="167" y="495" text-anchor="middle" class="bar-lbl">Jun</text>
+      <rect x="144" y="476" width="46" height="4" rx="3" fill="#238636" class="bar-rect" />
+      <text x="167" y="471" text-anchor="middle" class="bar-val">1</text>
+      <text x="167" y="495" text-anchor="middle" class="bar-lbl">Jul</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.64s;">
-      <rect x="204" y="450" width="46" height="30" rx="3" fill="#238636" class="bar-rect" />
-      <text x="227" y="445" text-anchor="middle" class="bar-val">45</text>
-      <text x="227" y="495" text-anchor="middle" class="bar-lbl">Jul</text>
+      <rect x="204" y="444" width="46" height="36" rx="3" fill="#238636" class="bar-rect" />
+      <text x="227" y="439" text-anchor="middle" class="bar-val">22</text>
+      <text x="227" y="495" text-anchor="middle" class="bar-lbl">Aug</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.72s;">
-      <rect x="264" y="459" width="46" height="21" rx="3" fill="#238636" class="bar-rect" />
-      <text x="287" y="454" text-anchor="middle" class="bar-val">31</text>
-      <text x="287" y="495" text-anchor="middle" class="bar-lbl">Aug</text>
+      <rect x="264" y="445" width="46" height="35" rx="3" fill="#238636" class="bar-rect" />
+      <text x="287" y="440" text-anchor="middle" class="bar-val">21</text>
+      <text x="287" y="495" text-anchor="middle" class="bar-lbl">Sep</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.8s;">
-      <rect x="324" y="433" width="46" height="47" rx="3" fill="#238636" class="bar-rect" />
-      <text x="347" y="428" text-anchor="middle" class="bar-val">69</text>
-      <text x="347" y="495" text-anchor="middle" class="bar-lbl">Sep</text>
+      <rect x="324" y="430" width="46" height="50" rx="3" fill="#238636" class="bar-rect" />
+      <text x="347" y="425" text-anchor="middle" class="bar-val">30</text>
+      <text x="347" y="495" text-anchor="middle" class="bar-lbl">Oct</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.88s;">
-      <rect x="384" y="430" width="46" height="50" rx="3" fill="#238636" class="bar-rect" />
-      <text x="407" y="425" text-anchor="middle" class="bar-val">73</text>
-      <text x="407" y="495" text-anchor="middle" class="bar-lbl">Oct</text>
+      <rect x="384" y="476" width="46" height="4" rx="3" fill="#238636" class="bar-rect" />
+      <text x="407" y="471" text-anchor="middle" class="bar-val">2</text>
+      <text x="407" y="495" text-anchor="middle" class="bar-lbl">Nov</text>
     </g>
   </g>
 
