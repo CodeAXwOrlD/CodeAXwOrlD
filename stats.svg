@@ -84,7 +84,7 @@
     <g class="fade-item" style="animation-delay: 0.10s;">
       <rect x="0" y="0" width="208" height="68" class="stat-box" />
       <text x="14" y="22" class="box-title">Total Contributions</text>
-      <text x="14" y="50" class="box-val" fill="#58a6ff">198</text>
+      <text x="14" y="50" class="box-val" fill="#58a6ff">202</text>
       <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">365 Days</text>
     </g>
 
@@ -92,7 +92,7 @@
     <g class="fade-item" style="animation-delay: 0.15s;" transform="translate(224, 0)">
       <rect x="0" y="0" width="208" height="68" class="stat-box" />
       <text x="14" y="22" class="box-title">Active Consistency</text>
-      <text x="14" y="50" class="box-val" fill="#39d353">48d</text>
+      <text x="14" y="50" class="box-val" fill="#39d353">49d</text>
       <text x="194" y="50" text-anchor="end" style="font-size: 10px; fill: #7d8590;">13% active</text>
     </g>
 
@@ -129,7 +129,7 @@
     <!-- Distribution Legend -->
     <g transform="translate(0, 34)">
       <circle cx="5" cy="5" r="4" fill="#39d353" />
-      <text x="14" y="9" class="dist-lbl">Commits: <tspan class="dist-val">178</tspan></text>
+      <text x="14" y="9" class="dist-lbl">Commits: <tspan class="dist-val">182</tspan></text>
 
       <circle cx="122" cy="5" r="4" fill="#58a6ff" />
       <text x="131" y="9" class="dist-lbl">PRs: <tspan class="dist-val">10</tspan></text>
@@ -172,8 +172,8 @@
       <text x="227" y="495" text-anchor="middle" class="bar-lbl">Aug</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.72s;">
-      <rect x="264" y="445" width="46" height="35" rx="3" fill="#238636" class="bar-rect" />
-      <text x="287" y="440" text-anchor="middle" class="bar-val">21</text>
+      <rect x="264" y="444" width="46" height="36" rx="3" fill="#238636" class="bar-rect" />
+      <text x="287" y="439" text-anchor="middle" class="bar-val">22</text>
       <text x="287" y="495" text-anchor="middle" class="bar-lbl">Sep</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.8s;">
@@ -182,8 +182,8 @@
       <text x="347" y="495" text-anchor="middle" class="bar-lbl">Oct</text>
     </g>
     <g class="month-bar" style="animation-delay: 0.88s;">
-      <rect x="384" y="476" width="46" height="4" rx="3" fill="#238636" class="bar-rect" />
-      <text x="407" y="471" text-anchor="middle" class="bar-val">2</text>
+      <rect x="384" y="472" width="46" height="8" rx="3" fill="#238636" class="bar-rect" />
+      <text x="407" y="467" text-anchor="middle" class="bar-val">5</text>
       <text x="407" y="495" text-anchor="middle" class="bar-lbl">Nov</text>
     </g>
   </g>
